@@ -1,0 +1,202 @@
+/*
+    Theme Name: BS3 Theme
+    Theme URI: test.com
+    Description: this is the theme 
+    Version: 1
+    Author: Robert Smith
+    Author URI: test.com
+*/
+
+@import url("bower_components/bootstrap/dist/css/bootstrap.min.css");
+
+
+html {
+    margin-top: 14px !important;
+}
+
+/* Navbar */
+#nav-container {
+    padding: 0;
+}
+
+#nav-container > nav {
+    border-radius: 0;    
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+
+body {
+    padding-top: 0;
+}
+
+ul.footer-list li a {
+    color: white;
+    font-size: 14px;
+} 
+
+ul.footer-list li a:hover {
+    text-decoration: none;
+} 
+
+#sales-img {
+    border: 1px solid black;
+}
+
+.container {
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#header-full-width {
+    padding-top: 10px;
+
+}
+
+.navbar {
+  border: 0 !important;
+}
+
+.mid-banner-text {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.btn-full-width-center {
+    width: 100%;
+    text-align: center;
+}
+
+.mid-banner {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.mid-banner:hover {
+    transform: scale(1.03);
+}
+
+.mid-banner:hover .mid-banners-btn {
+    background-color: #b71b23;
+}
+
+.mid-banners-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    background-color: #CE202A;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mid-banner-img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mid-banner-row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mid-banners-btn:hover {
+    background-color: #e25a00;
+}
+
+#tagline {
+    background-color: rgba(97, 97, 97, .8);
+    color: white;
+    position: absolute;
+    width: 80%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 33px;
+    height: 208px;
+}
+
+#nav-container {
+    padding: 0;
+}
+
+#tagline-row {
+    position: relative;
+}
+
+#tagline-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+ul.footer-nav li:first-child {
+    margin-top: 0;
+}
+
+ul.footer-nav li {
+    margin-top: 10px;
+}
+#footer-wrapper {
+    padding: 1% 0 2% 0;
+    background-color: #676767;
+    color: white;
+    margin-top: 2%;
+    color: white;
+}
+
+#proudly-providing {
+    margin-top: 0;
+}
+
+.header-logo {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#big-img-col {
+    background-image: url("../images/bkimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 275px;
+    background-clip: content-box;
+    margin-bottom: 22px;
+}
+
+.overflow-div {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#big-background-container {
+    padding: 0;
+    height: 276px;
+}
