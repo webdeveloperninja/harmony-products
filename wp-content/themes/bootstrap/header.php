@@ -56,6 +56,12 @@
                         <li><a href="#">CONTACT</a></li>
                         <li><a href="#">BLOG</a></li>
                     </ul>
+                <form class="navbar-form navbar-right" method="POST" action="login.php" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="customerID" placeholder="Search Our Store">
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </div>
+                </form>
                 </div><!-- /.navbar-collapse -->
                 </div>
             </nav>
