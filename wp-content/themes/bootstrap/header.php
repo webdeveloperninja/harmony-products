@@ -48,11 +48,11 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="<?php get_site_url();?>/">HOME</a></li>
+                        <li><a href="<?php get_site_url();?>/shop">OUR PRODUCTS</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">FINANCING</a></li>
                         <li><a href="#">SALES</a></li>
                         <li><a href="#">SERVICE</a></li>
-                        <li><a href="<?php get_site_url();?>/shop">MASSY LAWN TRACTORS</a></li>
                         <li><a href="#">CONTACT</a></li>
                         <li><a href="#">BLOG</a></li>
                     </ul>
