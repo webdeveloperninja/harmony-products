@@ -13,7 +13,9 @@
             <header>
                 <div class="row">
                     <div class="col-md-4">
+                        <a href="<?php get_site_url();?>">
                         <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="xxx" height="xxx" />
+                        </a>
                     </div>
                     <div class="col-md-8 text-center">
                         <h3 id="proudly-providing">Proudly Providing</h3>
@@ -45,7 +47,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">HOME</a></li>
+                        <li><a href="<?php get_site_url();?>/">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">FINANCING</a></li>
                         <li><a href="#">SALES</a></li>

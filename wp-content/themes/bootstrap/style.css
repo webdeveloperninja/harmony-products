@@ -182,7 +182,7 @@ ul.footer-nav li {
 }
 
 #big-img-col {
-    background-image: url("../images/bkimg.jpg");
+    background-image: url('images/bkimg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 275px;
@@ -200,3 +200,30 @@ ul.footer-nav li {
     padding: 0;
     height: 276px;
 }
+
+/* Woocommerce */
+.cart {
+    display: none;
+}
+
+a.button.add_to_cart_button.product_type_simple {
+    display: none;
+}
+
+.woocommerce-breadcrumb {
+    display: none;
+}
+
+
+#container {
+    margin-top: 3%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+#myCarousel > a.carousel-control.right > span, #myCarousel > a.carousel-control.left > span {
+    color: black;
+}
+
